@@ -7,22 +7,28 @@ This project is for learning the Selenium lib of python^3.5. Written at 2018/11.
 
 Here is the intruduction of functions.
 
-> re_captcha()
+- re_captcha()
+
 Get the capthca code and write by hand.
 
-> login()
+- login()
+
 Simulate the login behavior like human.
 
-> get_link()
+- get_link()
+
 Find all relative links about the key words from Google.
 
-> get_search_link()
+- get_search_link()
+
 Design the search link for Google with using the words form users inpution.
 
-> search()
+- search()
+
 Simulate the google-searching behavior.
 
-> read_profile()
+- read_profile()
+
 Refresh all the page and ready to save the profile page.
 
 All crawled data would be stored in the *saved* file. And crawled ID would be stored in the *crawled.txt* file.
